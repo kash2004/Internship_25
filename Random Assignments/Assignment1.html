@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .note {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 0; 
+            color: #333;
+        }
+        .note .bar {
+            width: 5px;
+            height: 100%;
+            border-radius: 0; 
+        }
+        .danger {
+            background-color: #f8d7da;
+            border-left: 5px solid #dc3545;
+        }
+        .danger .bar {
+            background-color: #dc3545;
+        }
+        .success {
+            background-color: #d4edda;
+            border-left: 5px solid #28a745;
+        }
+        .success .bar {
+            background-color: #28a745;
+        }
+        .info {
+            background-color: #d1ecf1;
+            border-left: 5px solid #17a2b8;
+        }
+        .info .bar {
+            background-color: #17a2b8;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+        }
+        .warning .bar {
+            background-color: #ffc107;
+        }
+        strong {
+            margin-right: 5px; /* Add margin for spacing */
+        }
+    </style>
+</head>
+<body>
+    <h1>Notes</h1>
+    <div class="note danger">
+        <div class="bar"></div>
+        <strong>Danger!</strong>&nbsp;Some text...
+    </div>
+    <div class="note success">
+        <div class="bar"></div>
+        <strong>Success!</strong>&nbsp;Some text...
+    </div>
+    <div class="note info">
+        <div class="bar"></div>
+        <strong>Info!</strong>&nbsp;Some text...
+    </div>
+    <div class="note warning">
+        <div class="bar"></div>
+        <strong>Warning!</strong>&nbsp;Some text...
+    </div>
+</body>
+</html>
