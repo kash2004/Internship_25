@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0; 
+  }
+  
+  .logo {
+    font-size: 40px;
+    font-family: "Times New Roman", serif; 
+    color: #2e2545;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666; 
+  }
+  
+  .view-plans-btn {
+    padding: 18px 25px;
+    margin-right: 110px;
+    border: 1px solid #666666;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    text-decoration: none;
+  }
+  
+  .view-plans-btn:hover {
+    background-color: rgba(0, 0, 0, 0.05); 
+  }
+  
+  .nav a:hover {
+    color: #333333; 
+  }
+  
+  .hero {
+    background-color: #2e2545;
+    color: #ffffff;
+    padding: 350px;
+    position: relative;
+  }
+  
+  
+  
