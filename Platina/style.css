@@ -159,7 +159,7 @@ button {
 .service-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 40px; /* Space between elements */
+    gap: 40px;
     max-width: 1200px;
     margin: auto;
 }
